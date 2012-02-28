@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Playlist of Teenage Exuberance</title>
+  </head>
+  <body>
+  Playlist of Teenage Exuberance:
+    <ol id="PlayListTracks">
+      <li class="Track">
+        <a href="/01" rel="Song">Mr. Bungle -- Sweet Charity</a>,
+        <span class="genre">Genre1</span>, <span class="genre">GenreN</span>,
+        <span class="key">Key1</span>, <span class=key">KeyN</span>,
+        <span class="tempo">Tempo1</span>, <span class="tempo">TempoN</span>.
+      </li>
+
+	 <li class="Track">
+        <a href="/02" rel="Song">"Weird Al" Yankovic -- I Was Only Kidding</a>,
+        <span class="genre">Genre1</span>, <span class="genre">GenreN</span>,
+        <span class="key">Key1</span>, <span class=key">KeyN</span>,
+        <span class="tempo">Tempo1</span>, <span class="tempo">TempoN</span>.
+      </li>
+
+      <li class="Track">
+        <a href="/03" rel="Song">Abba -- Take a Chance on Me</a>,
+        <span class="genre">Genre1</span>, <span class="genre">GenreN</span>,
+        <span class="key">Key1</span>, <span class=key">KeyN</span>,
+        <span class="tempo">Tempo1</span>, <span class="tempo">TempoN</span>.
+      </li>
+    </ol>
+    
+    <form id="NewTrack" action="../" method="post">
+    <input type="submit" value="Add a new track" name="SubmitButton" />
+    </form>
+   
+    
+ 
+    <form id="NewTrackValue" action="/{TrackURI}" method="put">
+    Track number in this playlist: <input type="text" name="TrackURI" />
+    Song URI from Album Page: <input type="text" name="SongURI" />
+    <input type="submit" value="Update the song in a playlist track" name="SubmitButton" />
+    </form>
+
+    
+  </body>
+</html>
