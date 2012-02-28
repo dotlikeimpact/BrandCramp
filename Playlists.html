@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Playlists</title>
+  </head>
+  <body>
+  All Playlists:
+    <ul id="playlists">
+      <li class="SpecificPlaylist">
+        <a href="./PlaylistofDoom.html" rel="playlist">Playlist of Doom</a>,
+		</li>
+
+		<li class="SpecificPlaylist">
+        <a href="./PlaylistofTeenageExuberance.html" rel="playlist">Playlist of Teenage Exuberance</a>,
+		</li>
+
+      <li class="SpecificPlaylist">
+        <a href="./PlaylistofTedium.html" rel="playlist">Playlist of Tedium</a>.
+		</li>
+    </ul>
+    <form id="NewPlaylist" action="./Playlists/{Playlist_ID}" method="post">
+    Playlist Name: <input type="text" name="Playlist_ID" />
+    <input type="submit" value="Create Me A New Playlist" name="SubmitButton" />
+    </form>
+  </body>
+</html>
