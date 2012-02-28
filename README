@@ -1,1 +1,41 @@
-This is a test README.
+**ID attribute values**
+
+*SearchArtist* -- Applied to a form, used for templated query links leading to a resource of Artists.
+*SearchAlbum* -- Applied to a form, used for templated query links leading to a resource of Albums.
+*SearchSongGenre* -- Applied to a form, used for templated query links leading to a resource of Songs.
+*SearchSongKey* -- Applied to a form, used for templated query links leading to a resource of Songs.
+*SearchSongTempo* -- Applied to a form, used for templated query links leading to a resource of Songs.
+*Artists* -- Applied to a *<ul>*, used for identifying a list of all Artists in the root resource.
+*playlists* -- Applied to a *<ul>*, used for identifying a list of all Playlists in the playlists resource directory.
+*NewPlaylist* -- Applied to a form used to template the URI redirection for POST method to the Playlists resource.
+*results* -- Applied to *<ul>*, used for identifying the results of a variety of queries.
+*Songs* -- Applied to an *<ol>*, used for identifying the Songs in an Album resource.
+*Albums* -- Applied to an *<ul>*, used for identifying the Albums in an Artist resource.
+*PlaylistTracks* -- Applied to a *<ol>*, used for identifying the Tracks in a Playlist resource.
+*NewTrack* -- Applied to a form, used to template the URI for creating a new Track in a Playlist resource using POST.
+*NewTrackValue* -- Applied to a form, used template the URI for updating a Track in a Playlist resource using PUT.  (Per your suggestion, returns a 404 if there is no Track resource with the specified URI).
+*Search* -- Applied to a div, used for identifying the section of the representation that houses the forms used for templated query links.
+
+
+**Class attribute values**
+*SpecificArtist* -- Applied to a *<li>*, used to identify an Artist.
+*SpecificAlbum* -- Applied to a *<li>*, used to identify an Album.
+*genre* -- Applied to a *<span>*, used to identify an genre.
+*key* -- Applied to a *<span>*, used to identify an key.
+*tempo* -- Applied to a *<span>*, used to identify an tempo.
+*SpecificPlaylist* -- Applied to a *<li>*, used to identify a Playlist.
+*Song* -- Applied to a *<li>*, used to identify a Song.
+*Track* -- Applied to a *<li>*, used to identify a Track in a Playlist.
+
+**Name attribute values**
+*SubmitButton* -- Applied to an *<input>* element, used to identify a submit button.
+*TempoBox* -- Applied to an *<input>* element, used to identify a free text box for inputting a Tempo, which should be formatted as a real integer.
+*PlaylistID* -- Applied to an *<input>* element, used to identify a free text box for inputting a playlist name.
+*TrackURI* -- Applied to an *<input>* element, used to identify a free text box for inputting a track number in playlist.
+*SongURI* -- Applied to an *<input>* element, used to identify a free text box for inputting a Song's URI to PUT to TrackURI.
+
+**Rel attribute values**
+*Album* -- Used on an *<a>* element, describing the linked resource as the Albums by Artist representation.
+*Artist* -- Used on an *<a>* element, describing the linked resource as the Artist representation.
+*playlist* -- Used on an *<a>* element, describing the linked resource as the playlist representation.
+*Song* -- Used on an *<a>* element, describing the linked resource as the Song representation.
