@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Albums matching genre "Disco"</title>
+  </head>
+  <body>
+  Songs matching genre "Disco":
+    <ul id="results">
+    <li><a href="./Abba/RingRing/RingRing.mp3" rel="Song">Abba--Ring Ring</a></li>
+	<li><a href="./Abba/RingRing/AnotherTownAnotherTrain.mp3" rel="Song">Abba--Another Town, Another Train</a></li>
+	<li><a href="./Abba/RingRing/Disillusion.mp3" rel="Song">Abba--Disillusion</a></li>
+	<li><a href="./Abba/RingRing/PeopleNeedLove.mp3" rel="Song">Abba--PeopleNeedLove</a></li>
+	<li><a href="./Abba/RingRing/ISawItInTheMirror.mp3" rel="Song">Abba--I Saw It In The Mirror</a></li>
+	<li><a href="./Abba/RingRing/NinaPrettyBallerina.mp3" rel="Song">Abba--Nina, Pretty Ballerina</a></li>
+	<li><a href="./Abba/RingRing/LoveIsntEasy.mp3" rel="Song">Abba--Love Isn't Easy (But It Sure is Hard Enough)</a></li>
+	<li><a href="./Abba/RingRing/MeAndBobbyAndBobbysBrother.mp3" rel="Song">Abba--Me and Bobby and Bobby's Brother</a></li>
+	<li><a href="./Abba/RingRing/HeIsYourBrother.mp3" rel="Song">Abba--He is Your Brother</a></li>
+  	<li><a href="./Abba/RingRing/ShesMyKindOfGirl.mp3" rel="Song">Abba--She's My Kind of Girl</a></li>
+  	<li><a href="./Abba/RingRing/IAmJustAGirl.mp3" rel="Song">Abba--I am Just a Girl</a></li>
+  	<li><a href="./Abba/RingRing/RocknRollBand.mp3" rel="Song">Abba--Rock'n Roll Band</a></li>
+
+    </ul>
+    
+     <div id="Search">
+    <form id="SearchArtist" action="./Artist?g={form data}" method="get">
+    Search Artists By Genre: 
+	<select>
+  		<option value="Disco">Disco</option>
+  		<option value="Pop">Pop</option>
+  		<option value="Scandinavian">Scandinavian</option>
+  		<option value="Comedy">Comedy</option>
+  		<option value="Polka">Polka</option>
+  		<option value="Metal">Metal</option>
+  		<option value="Jazz">Jazz</option>
+  		<option value="Tropicalia">Tropicalia</option>
+  		<option value="Lounge">Lounge</option>
+  		<option value="Avant-garde">Avant-garde</option>
+  		<option value="Experimental">Experimental</option>
+	</select>
+	<input type="submit" value="Submit" name="SubmitButton" />
+    </form>
+    
+    <form id="SearchAlbum" action="./Album?g={form data}" method="get">
+    Search Albums By Genre: 
+	<select>
+  		<option value="Disco">Disco</option>
+  		<option value="Pop">Pop</option>
+  		<option value="Scandinavian">Scandinavian</option>
+  		<option value="Comedy">Comedy</option>
+  		<option value="Polka">Polka</option>
+  		<option value="Metal">Metal</option>
+  		<option value="Jazz">Jazz</option>
+  		<option value="Tropicalia">Tropicalia</option>
+  		<option value="Lounge">Lounge</option>
+  		<option value="Avant-garde">Avant-garde</option>
+  		<option value="Experimental">Experimental</option>
+	</select>
+	<input type="submit" value="Submit" name="SubmitButton" />
+    </form>
+    
+    <form id="SearchSongGenre" action="./Songs?g={form data}" method="get">
+    Search Songs By Genre: 
+	<select>
+  		<option value="Disco">Disco</option>
+  		<option value="Pop">Pop</option>
+  		<option value="Scandinavian">Scandinavian</option>
+  		<option value="Comedy">Comedy</option>
+  		<option value="Polka">Polka</option>
+  		<option value="Metal">Metal</option>
+  		<option value="Jazz">Jazz</option>
+  		<option value="Tropicalia">Tropicalia</option>
+  		<option value="Lounge">Lounge</option>
+  		<option value="Avant-garde">Avant-garde</option>
+  		<option value="Experimental">Experimental</option>
+	</select>
+	<input type="submit" value="Submit" name="SubmitButton" />
+    </form>
+    
+    <form id="SearchSongKey" action="./Songs?k={form data}" method="get">
+    Search Songs By Key (Enharmonic Equivalents Not Listed  - These are the Major Keys from the Circle of Fifths): 
+	<select>
+  		<option value="C">C</option>
+  		<option value="G">G</option>
+  		<option value="D">C</option>
+  		<option value="A">A</option>
+  		<option value="E">E</option>
+  		<option value="B">B</option>
+  		<option value="F#">F#</option>
+  		<option value="DFlat">D Flat</option>
+  		<option value="AFlat">A Flat</option>
+  		<option value="EFlat">EFlat</option>
+  		<option value="BFlat">BFlat</option>
+  		<option value="F">F</option>
+	</select>
+	<input type="submit" value="Submit" name="SubmitButton" />
+    </form>
+    
+     <form id="SearchSongTempo" action="./Songs?t={form data}" method="get">
+    Search Songs By Tempo: 
+	<input type="text" name="TempoBox" />
+	<input type="submit" value="Submit" name="SubmitButton" />
+    </form>
+    
+    </div>
+  </body>
+</html>
